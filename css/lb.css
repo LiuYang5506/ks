@@ -1,16 +1,31 @@
-        .carousel-control-prev,
-        .carousel-control-next{
-            width: 4%;height: 20%;
-            background: #aaa;
-            border-radius: 0.25rem;
-            top: 40%;
-        }
-        .carousel-indicators li{
-            width: 0.75rem;  height: 0.75rem;
-            background: #fff;
-            border-radius: 50%;
-            margin: 0 4px;
-        }
-        .carousel-indicators .active{
-            background:#df2f30;
-        }
+.carousel-control-prev,
+.carousel-control-next {
+    width: 4% !important;
+    height: 20%;
+    background: #aaa;
+    border-radius: 0.25rem;
+    top: 40% !important;
+}
+
+.carousel-control-next {}
+
+.carousel-indicators li {
+    width: 0.75rem;
+    height: 0.75rem;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.carousel-indicators .active {
+    background: #666;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #c00;
+}
