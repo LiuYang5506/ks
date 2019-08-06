@@ -1,0 +1,7 @@
+#content>div>p {
+    color: aliceblue;
+}
+
+#content>div .login {
+    color: #aaa;
+}

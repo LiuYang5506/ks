@@ -12,25 +12,9 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/lb.css">
-    <script>
-        $(function() {
-            $.ajax({
-                url: "footer.html",
-                type: "get",
-                success: function(result) {
-                    $(result).replaceAll("#footer");
-                }
-            });
-            $.ajax({
-                url: "header.html",
-                type: "get",
-                success: function(result) {
-                    $(result).replaceAll("#header");
-                }
-            });
-        })
-    </script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/header.js"></script>
 </head>
 
 <body>
