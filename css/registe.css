@@ -18,6 +18,10 @@
     left: 14px;
 }
 
+a:hover {
+    color: #007bff;
+}
+
 #content>div>a>em {
     position: relative;
     top: -80px;
