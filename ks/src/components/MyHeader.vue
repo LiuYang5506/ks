@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div class="row">
-            <div class="col-md-9 col-sm-12 text-center">
+        <div class="row m-0">
+            <div class="col-md-9 col-sm-12 text-center clearfix">
                 <a href=""><img src="../assets/img/logo.jpg" class="float-left pl-3"></a>
                 <ul class="list-unstyled">
                     <li class="float-left p-3">
