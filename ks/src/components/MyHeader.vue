@@ -5,10 +5,14 @@
                 <a href=""><img src="../assets/img/logo.jpg" class="float-left pl-3"></a>
                 <ul class="list-unstyled">
                     <li class="float-left p-3">
-                        <a href="./index.html">首页</a>
+                        <a href="javascript:;">
+                            <router-link to="/">首页</router-link>
+                        </a>
                     </li>
                     <li class="float-left p-3">
-                        <a href="./newhouse.html">新房</a>
+                        <a href="javascript:;">
+                            <router-link to="/newhouse">新房</router-link>
+                        </a>
                     </li>
                     <li class="float-left p-3">
                         <a href="./oldhouse.html">二手房</a>
