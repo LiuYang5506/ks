@@ -226,8 +226,19 @@ import MyFooter from '../components/MyFooter.vue'
 export default {
     data(){
         return{
-
+            houseList:[]
         }
+    },
+    created(){
+        this.axios.get('newhouse').then(res=>{
+            this.houseList=res.data;
+            console.log(this.houseList);
+        }).catch(err=>{
+            console.log(err);
+        })
+    },
+    methods:{
+
     },
     components:{
         MyHeader,
