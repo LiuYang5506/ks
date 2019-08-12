@@ -1,0 +1,98 @@
+/*轮播图样式*/
+
+.carousel-indicators li {
+    width: 12px !important;
+    height: 12px !important;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.carousel-indicators .active {
+    background: #666;
+}
+
+carousel-inner>div>img {
+    width: 100%;
+    height: 452px;
+}
+
+
+/*二级导航样式*/
+
+#detail h2 a {
+    color: #df2f30;
+}
+
+#detail h2 a:hover {
+    text-decoration: none;
+}
+
+#detail p a {
+    color: #333;
+}
+
+#detail p a:hover {
+    color: #d20000;
+}
+
+
+/*广告栏*/
+
+#advertising img {
+    width: 100%;
+}
+
+
+/*新房介绍**/
+
+#newhouse>div>p {
+    display: inline-block;
+    color: #999;
+}
+
+#newhouse>div>a {
+    display: inline-block;
+    float: right;
+    color: #999;
+}
+
+#newhouse::after {
+    display: block;
+    clear: both;
+}
+
+#newhouse>div>img {
+    transition: transform 1s;
+}
+
+#newhouse>div>img:hover {
+    transform: scale(1.1);
+}
+
+
+/*二手房*/
+
+#oldhouse>div>p {
+    display: inline-block;
+    color: #999;
+}
+
+#oldhouse>div>a {
+    display: inline-block;
+    float: right;
+    color: #999;
+}
+
+#oldhouse::after {
+    display: block;
+    clear: both;
+}
+
+#oldhouse>div>img {
+    transition: transform 1s;
+}
+
+#oldhouse>div>img:hover {
+    transform: scale(1.1);
+}

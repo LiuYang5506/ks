@@ -1,0 +1,31 @@
+#content>div>p {
+    color: aliceblue;
+}
+
+#content>div>.small {
+    color: #aaa;
+}
+
+#code {
+    position: relative;
+    top: -84px;
+    left: 9px;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+#content>div>a>em {
+    position: relative;
+    top: -35px;
+    left: 160px;
+    color: #555;
+    font-size: 14px;
+    border-left: 1px solid #ddd;
+    padding: 0 15px;
+}
+
+#content>div .login {
+    color: #aaa;
+}
