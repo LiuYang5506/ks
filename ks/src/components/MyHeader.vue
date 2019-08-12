@@ -31,10 +31,14 @@
             <div class="col-md-3 col-sm-12 text-center">
                 <ul class="list-unstyled mr-5">
                     <li class="float-right p-3">
-                        <a href="./login.html">登录</a>
+                        <a href="javascript:;">
+                            <router-link to="/login">登录</router-link>
+                        </a>
                     </li>
                     <li class="float-right p-3">
-                        <a href="./registe.html">注册</a>
+                        <a href="javascript:;">
+                            <router-link to="/registe">注册</router-link>
+                        </a>
                     </li>
                 </ul>
             </div>

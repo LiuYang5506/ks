@@ -9,15 +9,47 @@
                 <button class="btn btn-primary p-2 pl-4 mb-1"></button>
             </div>
             <div class="w-100 mt-5 mb-5">
-                <h5><b>选择位置</b></h5>
+                <dl class="area">
+                    <h5 class="mb-4"><b>选择位置</b></h5>
+                    <dt class="pb-4">
+                        按区域
+                    </dt>
+                    <dd class="">
+                        <a href="">渝中区&nbsp;</a>
+                        <a href="">&nbsp;沙坪坝区&nbsp;</a>
+                        <a href="">&nbsp;江北区&nbsp;</a>
+                        <a href="">&nbsp;南岸区&nbsp;</a>
+                        <a href="">&nbsp;九龙坡区&nbsp;</a>
+                        <a href="">&nbsp;大渡口区&nbsp;</a>
+                        <a href="">&nbsp;渝北区&nbsp;</a>
+                        <a href="">&nbsp;巴南区&nbsp;</a>
+                        <a href="">&nbsp;北碚区&nbsp;</a>
+                        <a href="">&nbsp;江津区&nbsp;</a>
+                        <a href="">&nbsp;璧山区&nbsp;</a>
+                    </dd>
+                    <dt class="pb-4 pt-4">
+                        按地铁线
+                    </dt>
+                    <dd class="subway">
+                        <a href="">1号线&nbsp;</a>
+                        <a href="">&nbsp;2号线&nbsp;</a>
+                        <a href="">&nbsp;3号线&nbsp;</a>
+                        <a href="">&nbsp;4号线&nbsp;</a>
+                        <a href="">&nbsp;5号线&nbsp;</a>
+                        <a href="">&nbsp;6号线&nbsp;</a>
+                        <a href="">&nbsp;10号线&nbsp;</a>
+                        <a href="">&nbsp;国博线&nbsp;</a>
+                        <a href="">&nbsp;环线&nbsp;</a>
+                    </dd>
+                </dl>
             </div>
             <div class="col-12 w-100 my-position row m-0 mt-4 mb-5">
                 <div class="col-md-4 col-sm-12 mb-3">
                     <img src="../assets/img/1.jpg.296x216.jpg" alt="">
                 </div>
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    上邦高尔夫社区
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">上邦高尔夫</router-link>
                     </a>
                     <h6 class="text-muted mb-3">九龙坡区&nbsp;|&nbsp;白市驿</h6>
                     <span class="mb-3">重庆九龙坡区上邦高尔夫社区</span>
@@ -33,8 +65,8 @@
                     <img src="../assets/img/1.jpg.296x216 (3).jpg" alt="">
                 </div>                
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    和记黄埔御峰
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">和记黄埔御峰</router-link>
                     </a>
                     <h6 class="text-muted mb-3">南岸区&nbsp;|&nbsp;海棠溪</h6>
                     <span class="mb-3">重庆南岸区御泰路201号</span>
@@ -50,8 +82,8 @@
                     <img src="../assets/img/1.jpg.296x216 (1).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    保亿御景玖园
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">保亿御景玖园</router-link>
                     </a>
                     <h6 class="text-muted mb-3">北碚区&nbsp;|&nbsp;蔡家</h6>
                     <span class="mb-3">重庆北碚蔡家金兴大道</span>
@@ -67,8 +99,8 @@
                     <img src="../assets/img/1.jpg.296x216 (2).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    中骏东原阅璟山
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details"> 中骏东原阅璟山</router-link>
                     </a>
                     <h6 class="text-muted mb-3">九龙坡区&nbsp;|&nbsp;华岩新城</h6>
                     <span class="mb-3">重庆九龙坡区龙门阵大道阅璟山</span>
@@ -84,8 +116,8 @@
                     <img src="../assets/img/1.jpg.296x216 (4).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    远洋山水赋
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details"> 远洋山水赋</router-link>
                     </a>
                     <h6 class="text-muted mb-3">沙坪坝区&nbsp;|&nbsp;西永</h6>
                     <span class="mb-3">远洋山水赋售楼中心</span>
@@ -101,8 +133,8 @@
                     <img src="../assets/img/1.jpg.296x216 (5).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    阳光城翡丽公园
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">阳光城翡丽公园</router-link>
                     </a>
                     <h6 class="text-muted mb-3">沙坪坝区&nbsp;|&nbsp;双碑</h6>
                     <span class="mb-3">重庆市沙坪坝区远祖桥翡丽公园</span>
@@ -118,8 +150,8 @@
                     <img src="../assets/img/1.jpg.296x216 (6).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    东海印
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">东海印</router-link>
                     </a>
                     <h6 class="text-muted mb-3">九龙坡区&nbsp;|&nbsp;华岩新城</h6>
                     <span class="mb-3">重庆市九龙坡区龙门阵大道</span>
@@ -135,8 +167,8 @@
                     <img src="../assets/img/1.jpg.296x216 (7).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    兴茂盛世国际
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">兴茂盛世国际</router-link>
                     </a>
                     <h6 class="text-muted mb-3">九龙坡区&nbsp;|&nbsp;二郎</h6>
                     <span class="mb-3">重庆市九龙坡区科城路135号</span>
@@ -152,8 +184,8 @@
                     <img src="../assets/img/1.jpg.296x216 (8).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    金科黛山悦府
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">金科黛山悦府</router-link>
                     </a>
                     <h6 class="text-muted mb-3">璧山区&nbsp;|&nbsp;璧山街道</h6>
                     <span class="mb-3">金科黛山悦府销售中心</span>
@@ -169,8 +201,8 @@
                     <img src="../assets/img/1.jpg.296x216 (9).jpg" alt="">
                 </div> 
                 <div class="card border-0 w-100 pl-4 card-position col-md-5 col-sm-12 mb-3">
-                    <a class="sontitle mb-3" href="">
-                    西海岸
+                    <a class="sontitle mb-3" href="javascript:;">
+                    <router-link to="/newhouse_details">西海岸</router-link>
                     </a>
                     <h6 class="text-muted mb-3">九龙坡区&nbsp;|&nbsp;西彭</h6>
                     <span class="mb-3">重庆市.九龙坡区.新城东路</span>
@@ -215,13 +247,15 @@ export default {
             margin-left: -5px;
         }
         
-        .sontitle {
+        .sontitle>a {
             font-size: 20px;
             font-weight: 900;
             color: #333;
         }
-        
         .sontitle:hover {
+            text-decoration: none;
+        }
+        .sontitle>a:hover {
             color: #d00000;
             text-decoration: none;
         }
@@ -249,4 +283,11 @@ export default {
         .my-position div h5 {
             color: #d00000;
         }
+         .area a{
+           color:#333;
+       }
+       .area a:hover{
+           color:#d00000;
+           text-decoration:none;
+       }
     </style>
