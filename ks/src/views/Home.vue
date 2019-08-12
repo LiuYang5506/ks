@@ -26,7 +26,9 @@
                         <h2> <a href="">买房</a> </h2>
                     </div>
                     <div class="col text-left">
-                        <p> <a href="">新房</a> </p>
+                        <p> <a href="javascript:;">
+                        <router-link to="/newhouse">新房</router-link>
+                        </a> </p>
                         <p> <a href="">二手房</a></p>
                     </div>
                 </div>
