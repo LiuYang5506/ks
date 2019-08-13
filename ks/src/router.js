@@ -8,7 +8,7 @@ import NewHouse from './views/NewHouse.vue'
 import Login from './views/Login.vue'
 import Registe from './views/Registe.vue'
 import NewHouse_details from './views/NewHouse_details.vue'
-
+import Oldhouse from './views/Oldhouse'
 
 export default new Router({
     routes: [{
@@ -31,6 +31,10 @@ export default new Router({
             path: '/newhouse_details',
             name: 'newhouse_details',
             component: NewHouse_details
+        }, {
+            path: '/oldhouse',
+            name: 'oldhouse',
+            component: Oldhouse
         }
 
     ]

@@ -213,7 +213,19 @@
                     <span class="text-muted">总价57万/套起</span>
                 </div>
             </div>
+            <div>
+                <ul class="pagination">
+                    <li class="page-item disabled mr-1"><a class="page-link" href="#">上一页</a></li>
+                    <li class="page-item mx-1 active  mx-1"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item mx-1"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item mx-1"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item mx-1"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item mx-1"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item ml-1"><a class="page-link" href="#">下一页</a></li>
+                </ul>
+            </div>
         </div>
+        
         <MyFooter />
     </div>
 </template>
