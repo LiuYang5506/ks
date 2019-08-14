@@ -9,6 +9,10 @@ import Login from './views/Login.vue'
 import Registe from './views/Registe.vue'
 import NewHouse_details from './views/NewHouse_details.vue'
 import Oldhouse from './views/Oldhouse'
+import Rent from './views/Rent'
+import Community from './views/Community'
+import Rental from './views/Rental'
+
 
 export default new Router({
     routes: [{
@@ -35,6 +39,18 @@ export default new Router({
             path: '/oldhouse',
             name: 'oldhouse',
             component: Oldhouse
+        }, {
+            path: '/rent',
+            name: 'rent',
+            component: Rent
+        }, {
+            path: '/community',
+            name: 'community',
+            component: Community
+        }, {
+            path: '/rental',
+            name: 'rental',
+            component: Rental
         }
 
     ]

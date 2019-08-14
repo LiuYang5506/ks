@@ -1,8 +1,8 @@
 <template>
     <header>
         <div class="row m-0">
-            <div class="col-md-8  text-center clearfix">
-                <a href=""><img src="../assets/img/logo.jpg" class="float-left pl-3"></a>
+            <div class="col-md-8  text-center clearfix p-0">
+                <a href=""><img src="../assets/img/logo.jpg" class="float-left"></a>
                 <ul class="list-unstyled">
                     <li class="float-left p-3">
                         <a href="javascript:;">
@@ -20,18 +20,24 @@
                         </a>
                     </li>
                     <li class="float-left p-3">
-                        <a href="./community.html">小区</a>
+                        <a href="javascript:;">
+                            <router-link to="/community">小区</router-link>
+                        </a>
                     </li>
                     <li class="float-left p-3">
-                        <a href="./rent.html">租房</a>
+                        <a href="javascript:;">
+                            <router-link to="/rent">租房</router-link>
+                        </a>
                     </li>
                     <li class="float-left p-3">
-                        <a href="./shops.html">商铺</a>
+                        <a href="javascript:;">
+                            <router-link to="/rental">发布</router-link>
+                        </a>
                     </li>
                 </ul>
                 
             </div>
-            <div class="col-md-4 col-sm-6 ">
+            <div class="col-md-4 col-sm-12 ">
                 <ul class="list-unstyled mr-5">
                     <li class="float-right p-3">
                         <a href="javascript:;">
@@ -54,8 +60,7 @@ export default {
 }
 </script>
 <style scope>
-    
-
+   
     @media screen and (max-width: 806px) and (min-width: 550px){
         header>.row>.col-md-8{
            width: 100%;
