@@ -166,4 +166,7 @@ export default {
     #newhouse>div>a>a:hover{
         color: #999;
     }
+    .carousel-indicators .active {
+    background: #d00000;
+    }
 </style>
